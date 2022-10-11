@@ -1,0 +1,50 @@
+html{
+    background-color: #5c97ce;
+}
+
+.box-cadastro {
+    background-color: white;
+    width: 800px;
+    height: 1200px;
+    margin-top: 100px;
+    padding: 60px;  
+    margin-left: 310px;
+}
+
+
+.Box-left {
+     text-align: left;
+     align-items: center;
+}
+
+.Box-right {
+    text-align: right;
+    align-items: center;
+}
+
+input{
+    height: 20px;
+    width: 300px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-color: rgb(1, 1, 51);
+    border-radius: 3px;
+}
+
+h3 {
+    color:rgb(1, 1, 51);
+}
+
+
+a, a:hover, a:active{
+    text-decoration: none;
+    color: unset;
+    
+}
+
+.Titulo-login{
+   text-align: center;
+   align-items: center;
+   margin-top: 1px;
+}

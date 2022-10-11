@@ -1,0 +1,13 @@
+$(".email-signup").hide();
+$("#Advogado-box-link").click(function(){
+  $(".email-login").fadeOut(100);
+  $(".email-signup").delay(100).fadeIn(100);
+  $("#Cliente-box-link").removeClass("active");
+  $("#Advogado-box-link").addClass("active");
+});
+$("#Cliente-box-link").click(function(){
+  $(".email-login").delay(100).fadeIn(100);;
+  $(".email-signup").fadeOut(100);
+  $("#lCliente-box-link").addClass("active");
+  $("#Advogado-box-link").removeClass("active");
+});
