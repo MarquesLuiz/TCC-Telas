@@ -1,0 +1,36 @@
+html {
+    background-color: #ffffff;
+}
+
+a{
+    text-decoration: none;
+}
+
+header {
+    background-color: #5c97ce;
+}
+
+.Menu-button{
+    margin-left: 30%;
+}
+
+.Adv-button{
+    margin-left: 55%;
+}
+
+.header-button{
+    margin-left: 90%;
+    cursor: pointer;
+}
+
+
+.dd-right {
+    justify-content: right;
+    display: flex;
+    margin-top: 0;
+}
+
+.descri-adv {
+    border-style: solid;
+    border-color: black;
+}

@@ -1,7 +1,79 @@
+
 html {
     background-color: #ffffff;
 }
 
+a{
+    text-decoration: none;
+}
+
 header {
     background-color: #5c97ce;
+}
+
+.Menu-button{
+    margin-left: 30%;
+}
+
+.Adv-button{
+    margin-left: 55%;
+}
+
+.header-button{
+    margin-left: 90%;
+    cursor: pointer;
+}
+
+.img-center{
+    margin-top: 3%;
+    margin-left: 27%;
+}
+
+.all-tela {
+    background-color: rgb(173, 173, 173);
+    margin-top: 5%;
+}
+
+
+
+.menu-adv img {
+    height: 200px;
+    margin-left: 20%;
+    display: flex;
+}
+
+.menu-ass img {
+    height: 200px;
+    margin-left: 60%;
+    display: flex;
+    margin-top: 0%;
+}
+
+
+
+.txt-ex {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    display: flex;
+}
+
+.txt-ex h3{
+    font-family: cursive;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15%;
+}
+
+.ex-foco {
+    margin-left: 50%;
+}
+
+.ex-publi{
+    display: unset;
+}
+
+
+.box-help img {
+    height: 50px;
 }

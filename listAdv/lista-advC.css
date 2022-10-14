@@ -1,0 +1,33 @@
+html {
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #5c97ce;
+}
+
+.Menu-button{
+    margin-left: 30%;
+}
+
+.Adv-button{
+    margin-left: 55%;
+}
+
+.header-button{
+    margin-left: 90%;
+    cursor:pointer;
+}
+
+.header-filter{
+    background-color: gray;
+}
+
+
+
+
+td img {
+    height: 150px;
+}
+
+

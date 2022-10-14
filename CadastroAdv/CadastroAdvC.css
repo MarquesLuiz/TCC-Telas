@@ -2,6 +2,23 @@ html{
     background-color: #5c97ce;
 }
 
+header {
+    background-color: #5c97ce;
+}
+
+.Menu-button{
+    margin-left: 30%;
+}
+
+.Adv-button{
+    margin-left: 55%;
+}
+
+.header-button{
+    margin-left: 90%;
+    cursor:pointer;
+}
+
 .box-cadastro {
     background-color: white;
     width: 800px;
@@ -9,6 +26,7 @@ html{
     margin-top: 100px;
     padding: 60px;  
     margin-left: 310px;
+    display: flex;
 }
 
 

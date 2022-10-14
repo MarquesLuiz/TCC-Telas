@@ -1,6 +1,25 @@
 body{
     background-color: #5c97ce;
   }
+
+
+  header {
+    background-color: #ffffff;
+}
+
+.Menu-button{
+    margin-left: 30%;
+}
+
+.Adv-button{
+    margin-left: 55%;
+}
+
+.header-button{
+    margin-left: 90%;
+    cursor:pointer;
+}
+ 
   .login-box{
     position:relative;
     margin: 10px auto;
