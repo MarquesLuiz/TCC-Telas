@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+  
+    <link href='fullcalendar/packages/core/main.css' rel='stylesheet' />
+    <link href='fullcalendar/packages/daygrid/main.css' rel='stylesheet' />
+    
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="headerstyle.css">
+
+    <title>Calendar #9</title>
+  </head>
+  <body>
+  
+    <header>
+        
+      <img src="img-logoo.png" alt="">
+        <div class="Menu-button"> <a href=""> <h2>Associações</h2> </a> </div>
+
+         <div class="Adv-button"> <a href="/listAdv/lista-adv.html"> <h2>Advogados</h2> </a> </div>
+
+         <div class="header-button">
+            <button>Login</button>
+        </div>
+       
+    </header>
+
+  <div class="content">
+    <div id='calendar'></div>
+  </div>
+    
+    
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src='fullcalendar/packages/core/main.js'></script>
+    <script src='fullcalendar/packages/interaction/main.js'></script>
+    <script src='fullcalendar/packages/daygrid/main.js'></script>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+    var calendarEl = document.getElementById('calendar');
+
+    var calendar = new FullCalendar.Calendar(calendarEl, {
+      plugins: [ 'interaction', 'dayGrid' ],
+      defaultDate: '2022-10-15',
+      editable: true,
+      eventLimit: true, // allow "more" link when too many events
+      events: [
+        {
+          title: 'Matheus Santos',
+          start: '2022-10-11'
+        },
+        {
+          title: '*Reservado* ',
+          start: '2022-10-15',
+          end: '2022-10-15'
+        },
+        {
+          groupId: 999,
+          title: 'Gustavo Nery',
+          start: '2022-10-11'
+        },
+        {
+          groupId: 999,
+          title: 'Marcos Vinicius Kevin Yuri Barbosa',
+          start: '2022-10-05 T16:00:00'
+        },
+        {
+          title: '*reservado*',
+          start: '2022-10-20',
+          end: '2022-10-22'
+        },
+        {
+          title: 'Samuel João Luís Lopes',
+          start: '2022-10-12' ,
+          end: '2022-10-13'
+        },
+        {
+          title: 'Bento João Diogo dos Santos',
+          start: '2022-10-13 T12:00:00'
+        },
+        {
+          title: 'Renato Fernando Julio Farias',
+          start: '2022-10-14 T14:30:00'
+        },
+        {
+          title: '**Reservado',
+          start: '2022-10-10 T17:30:00'
+        },
+        {
+          title: 'Anderson Calebe Duarte',
+          start: '2022-10-24 T20:00:00'
+        },
+        {
+          title: '*Reservado* afdsdfgasyfs',
+          start: '2022-10-27 T07:00:00'
+        },
+       
+      ]
+    });
+
+    calendar.render();
+  });
+
+    </script>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
