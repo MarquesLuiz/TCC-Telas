@@ -1,33 +1,266 @@
-html{
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@300&display=swap');
+
+
+html {
     background-color: #5c97ce;
 }
 
+
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+/*cabeçalho*/
 header {
     background-color: #5c97ce;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: rgba(255, 255, 255, 0.45) 0px 25px 20px -20px;
 }
 
-.Menu-button{
-    margin-left: 30%;
+header h2 {
+    color: white;
+}
+
+
+
+.ass-button{
+    margin-left: 25%;
+    margin-right: 3%;
+    margin-top: 0.5%;
+    font-family: 'Martel Sans', sans-serif;
+
+}
+
+.img-header{
+    display: flex;
+    border-left: 50%;
 }
 
 .Adv-button{
-    margin-left: 55%;
+    margin-left: 1%;
+    margin-top: 0.5%;
+    font-family: 'Martel Sans', sans-serif;
+
 }
 
-.header-button{
-    margin-left: 90%;
-    cursor:pointer;
+.login-button {
+    margin-left: 15%;
+    margin-top: 1.3%;
 }
+
+.login-button button {
+    border-color: white;
+    color: white;
+    font-size: 16px;
+    padding: 11px;
+    font-family: 'Martel Sans', sans-serif;
+    background-color: #5c97ce;
+    height: 70%;
+    width: 110px;
+    border-style: solid;
+    cursor: pointer;
+}
+
+.login-button button:hover {
+    border-color: #5c97ce;
+    color: #5c97ce;
+    font-size: 16px;
+    padding: 11px;
+    font-family: 'Martel Sans', sans-serif;
+    background-color: #ffffff;
+    height: 70%;
+    width: 110px;
+    border-style: solid;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+/*fim*/
 
 .box-cadastro {
     background-color: white;
     width: 800px;
-    height: 1200px;
+    height: 1500px;
     margin-top: 100px;
     padding: 60px;  
     margin-left: 310px;
+    
+}
+
+
+.Titulo-login{
+    margin-top: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: rgb(0, 0, 99);
+}
+
+/* nome e cep*/
+.Box-up{
+    margin-top: 10%;
     display: flex;
 }
+
+.name{
+    margin-left: 2%;
+}
+.name .title-name{
+    margin-left: 39%;
+}
+
+.cep{
+    margin-left: 20%;
+}
+.cep .title-cep{
+    margin-left: 42%;
+}
+/**/
+
+/* cpf e DATA DE NASCIMENTO */
+.box-center{
+    margin-top: 8%;
+    display: flex;
+}
+
+.cpf{
+    margin-left: 2%;
+}
+.cpf .title-cpf{
+    margin-left: 40%;
+}
+
+.nasc{
+    margin-left: 20%;
+}
+.nasc .title-nasc{
+    margin-left: 13%;
+}
+
+/**/
+
+/*telefone e sexo*/
+
+.down{
+    display: flex;
+    margin-top: 10%;
+}
+.down{
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px;
+    border-top: 0;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.37);
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.tele{
+    margin-left: 2%;
+}
+.tele .title-tel{
+    margin-left: 32%;
+}
+
+.sex{
+    margin-left: 0%;
+}
+
+.title-sex{
+    margin-left: 70%;
+}
+
+/**/
+
+/* codigo OAB  e  area*/
+.cod-oab{
+    margin-right: 30% ;
+}
+.cod-oab .title-oab{
+    margin-right: 17%;
+}
+
+
+.title-area{
+    margin-top: 10%;
+    margin-right: 27%;
+}
+.sel-area{
+    margin-right: 20%;
+}
+/**/
+
+
+/*Email e senha*/
+
+.email-senha{
+    margin-top: 5%;
+    margin-right: 10%;
+}
+
+
+.email{
+    margin-top: 2%;
+}
+.email h3{
+    margin-right: 22%;
+}
+
+
+.senha{
+    margin-top: 8%;
+}
+.senha h3{
+    margin-right: 22%;
+}
+
+
+/**/
+
+.button-cad{
+    margin-top: 12%;
+    margin-right: 10%;
+}
+
+.button-cad button{
+    height: 50px;
+    width: 300px;
+    color: #5c97ce;
+    background-color: white;
+    border-color: #5c97ce;
+    border-style: solid;
+    cursor: pointer;
+}
+
+.button-cad button:hover{
+    height: 55px;
+    width: 330px;
+    color: #5c97ce;
+    background-color: white;
+    border-color: #5c97ce;
+    border-style: solid;
+    cursor: pointer;
+}
+
+.button-cad button h1{
+    margin-top: 3%;
+}
+
+
+
+
+.menu-link{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 22%;
+    color: rgba(0, 0, 0, 0.432);
+}
+
 
 
 .Box-left {

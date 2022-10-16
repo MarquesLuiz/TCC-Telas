@@ -1,16 +1,83 @@
-header {
-    background-color: #5c97ce;
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@300&display=swap');
+
+
+html {
+    background-color: #ffffff;
 }
 
-.Menu-button{
-    margin-left: 30%;
+
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+/*cabeçalho*/
+header {
+    background-color: #5c97ce;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+header h2 {
+    color: white;
+}
+
+
+
+.ass-button{
+    margin-left: 25%;
+    margin-right: 3%;
+    margin-top: 2%;
+    font-family: 'Martel Sans', sans-serif;
+
+}
+
+.img-header{
+    display: flex;
+    border-left: 50%;
 }
 
 .Adv-button{
-    margin-left: 55%;
+    margin-left: 1%;
+    margin-top: 2%;
+    font-family: 'Martel Sans', sans-serif;
+
 }
 
-.header-button{
-    margin-left: 90%;
+.login-button {
+    margin-left: 15%;
+    margin-top: 1.3%;
+}
+
+.login-button button {
+    border-color: white;
+    color: white;
+    font-size: 16px;
+    padding: 11px;
+    font-family: 'Martel Sans', sans-serif;
+    background-color: #5c97ce;
+    height: 70%;
+    width: 110px;
+    border-style: solid;
     cursor: pointer;
 }
+
+.login-button button:hover {
+    border-color: #5c97ce;
+    color: #5c97ce;
+    font-size: 16px;
+    padding: 11px;
+    font-family: 'Martel Sans', sans-serif;
+    background-color: #ffffff;
+    height: 70%;
+    width: 110px;
+    border-style: solid;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+/*fim*/

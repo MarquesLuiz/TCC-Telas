@@ -94,15 +94,7 @@ table{
     margin-bottom: 10%;
 }
 
-/*
-td{
-    border-style: solid;
-    border-left: 0;
-    border-right: 0;
-    border-bottom: 0;
-    border-color: rgba(121, 121, 121, 0.212);    
-}
-*/
+
 tr{
     background-color: rgb(255, 255, 255);
     border-style: solid;
